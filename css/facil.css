@@ -1,0 +1,49 @@
+        .drag,
+        .drag2,
+        .drag3,
+        .drag4 {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+            z-index: 1;
+        }
+        
+        img {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        .drop,
+        .drop2,
+        .drop3,
+        .drop4 {
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin: 10px;
+            background-color: yellow;
+            padding: 10px;
+        }
+        
+        #islas {
+            position: absolute;
+            top: 22em;
+        }
+        
+        #containment-wrapper {
+            width: 95%;
+            height: 35em;
+            border: 2px solid #ccc;
+            padding: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
